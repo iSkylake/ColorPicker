@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #222222;
+}
+
+#main-square{
+	margin: 0 auto;
+	margin-top: 30px;
+	border-radius: 10px;
+	width: 90%;
+	height: 350px;
+	background-color: black;
+}
+
+.container-sqr{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.square{
+	width: 18vw;
+	height: 18vw;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.sqr-red{
+	background-color: red;
+}
+
+.sqr-blue{
+	background-color: blue;
+}
+
+.sqr-green{
+	background-color: green;
+}
+
+.sqr-yellow{
+	background-color: yellow;
+}
