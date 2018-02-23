@@ -4,6 +4,8 @@ body{
 	background-color: #222222;
 }
 
+/* BIG CHANGING COLOR SQUARE */
+
 #main-square{
 	margin: 0 auto;
 	margin-top: 30px;
@@ -11,7 +13,10 @@ body{
 	width: 90%;
 	height: 350px;
 	background-color: black;
+	transition: background-color 0.6s; /* Changing color animation */
 }
+
+/* SMALL COLORED SQUARE */
 
 .container-sqr{
 	margin-top: 20px;
@@ -41,4 +46,11 @@ body{
 
 .sqr-yellow{
 	background-color: yellow;
+}
+
+/* Hover Animation */
+
+.square:hover{
+	opacity: 0.8;
+	transition: opacity 0.4s;
 }
